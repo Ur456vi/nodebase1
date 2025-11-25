@@ -84,12 +84,14 @@ export function LoginForm(){
               className="w-full"
               type="button"
               disabled={isPending}>
+                <Image src="/logos/github.svg" alt="GitHub" height={20} width={20}/>
               Continue with GitHub
              </Button>
              <Button variant="outline"
               className="w-full"
               type="button"
               disabled={isPending}>
+                <Image src="/logos/google.svg" alt="Google" height={20} width={20}/>
               Continue with Google
              </Button>
             </div>
